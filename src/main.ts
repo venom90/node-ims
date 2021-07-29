@@ -1,9 +1,3 @@
-import { config } from 'dotenv';
-
-config({
-  path: './env',
-});
-
 import { NestFactory } from '@nestjs/core';
 import {
   FastifyAdapter,
